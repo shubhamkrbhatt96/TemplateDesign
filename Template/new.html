@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      .container {
+        height: 100%;
+        width: 100%;
+      }
+      .top_section {
+        background-image: url(images/download.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        position: relative;
+      }
+
+      .top_navbar {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 40px;
+        color: white;
+        font-size: 2rem;
+      }
+      .top_navbar span {
+        color: black;
+      }
+      .top_heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+      }
+      .top_heading h1 {
+        color: white;
+        font-size: 3rem;
+      }
+      .top_heading p {
+        margin-top: 20px;
+        color: rgb(43, 39, 39);
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      /* .button:hover{
+        background-color: purple;
+      } */
+      .top_heading button {
+        padding: 20px;
+        font-size: 1.2rem;
+        padding: 3px;
+        border-radius: 5px;
+        color: black;
+        background-color: red;
+        margin-top: 10px;
+      }
+      .work_section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+      }
+      /* .work_section img {
+        width: 900px;
+      } */
+      .header {
+        height: 70px;
+        background-color: rgb(233, 231, 231);
+        margin-top: 20px;
+      }
+      .post_section {
+        display: flex;
+        margin-left: 400px;
+      }
+      .left_section {
+        width: 50%;
+        margin-top: 20px;
+      }
+      .left_section img {
+        width: 50%;
+        margin-top: 20px;
+      }
+
+      .right_section {
+        width: 50%;
+        margin-top: 20px;
+      }
+      .right_section p {
+        width: 50%;
+        margin-top: 20px;
+        font-size: large;
+      }
+      .tag_section h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .tag_section button {
+        background-color: gray;
+        padding: 20px;
+        width: 80px;
+        border-radius: 10px;
+        margin: 5px;
+      }
+      .tag_section .top_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+      }
+      .tag_section .bottom_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+      }
+      .right_section .icons {
+        display: flex;
+        height: 30px;
+        margin: 10px;
+        gap: 20px;
+      }
+      .appartment_grid {
+        display: flex;
+      }
+      .button .subscribe:hover{
+        background-color: greenyellow;
+      }
+      .like{
+        background-color: rgb(112, 196, 255);
+      }
+      .button .like:hover{
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top_section">
+        <section class="top_navbar">
+          <h2 style="font-size: 30px">Villa</h2>
+          <span class="material-symbols-outlined"> menu </span>
+        </section>
+        <section class="top_heading">
+          <h1 style="font-size: 55px">Welcome to <i>Villa</i> resort</h1>
+          <p style="font-size: 20px; color: rgb(255, 252, 252)">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis.
+          </p>
+          <div class="button">
+            <button class="subscribe">Subscribe</button>
+            <button class="like">Like</button>
+          </div>
+        </section>
+      </div>
+      <div class="work_section">
+        <p style="font-size: 25px">Hello Frnds!!</p>
+        <h2 style="font-size: 35px">Discover Our Work</h2>
+        <div class="table">
+          <table >
+            <tr>
+              <td colspan="2">
+                <img
+                  src="images/1 new.jpeg"
+                  width="600px"
+                  height="300px"
+                  alt=""
+                />
+              </td>
+              
+              <td rowspan="2">
+                <img
+                  src="images/3 new.jpeg"
+                  height="510px"
+                  width="400px"
+                  alt=""
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/2 new.jpeg" height="200px" alt="" /></td>
+              <td>
+                <img
+                  width="290x"
+                  height="200px"
+                  src="images/download.jpeg"
+                  alt=""
+                />
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <h1
+        style="
+          padding: 20px;
+          font-size: 3rem;
+          background-color: rgb(210, 206, 206);
+          text-align: center;
+          margin-top: 50px;
+        "
+      >
+        Apartment Room
+      </h1>
+      <div class="appartment_grid">
+        <table>
+          <tr>
+            <td>
+              <img
+                height="200px"
+                width="474px"
+                src="images/1 new.jpeg"
+                alt=""
+              />
+            </td>
+            <td>
+              <img
+                height="200px"
+                width="474px"
+                src="images/1 new.jpeg"
+                alt=""
+              />
+            </td>
+            <td>
+              <img
+                height="200px"
+                width="474px"
+                src="images/1 new.jpeg"
+                alt=""
+              />
+            </td>
+            <td>
+              <img
+                height="200px"
+                width="490px"
+                src="images/1 new.jpeg"
+                alt=""
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <img
+                height="200px"
+                width="474px"
+                src="images/1 new.jpeg"
+                alt=""
+              />
+            </td>
+            <td>
+              <img
+                height="200px"
+                width="474px"
+                src="images/1 new.jpeg"
+                alt=""
+              />
+            </td>
+            <td>
+              <img
+                height="200px"
+                width="474px"
+                src="images/1 new.jpeg"
+                alt=""
+              />
+            </td>
+            <td>
+              <img
+                height="200px"
+                width="490px"
+                src="images/1 new.jpeg"
+                alt=""
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="header" style="height: 40px;"></div>
+      <div class="post_section">
+        <div class="left_section">
+          <h2>Popular Posts</h2>
+          <img src="images/download.jpeg" alt="" />
+        </div>
+        <div class="right_section">
+          <h2>About Philosophy</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            ratione odio excepturi mollitia unde totam ipsum velit modi, impedit
+            sunt ducimus corporis. Voluptate earum quaerat perferendis iusto
+            dolorum. Laudantium, atque earum. Asperiores ullam explicabo
+            suscipit numquam dolorum magnam laudantium perspiciatis eos ipsam
+            quod ratione labore voluptates sed optio quidem ipsum veniam
+            repellendus repellat, repudiandae maiores magni? Fuga aliquam eius
+            dignissimos possimus at enim ipsum, corrupti neque
+          </p>
+
+          <div class="icons">
+            <img src="images/facebook.png" alt="" />
+            <img src="images/twitter.png" alt="" />
+            <img src="images/instagram.png" alt="" />
+            <img src="images/pinterest.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="tag_section">
+        <h1>Tags</h1>
+        <div class="top_button">
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
+        <div class="bottom_button">
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
